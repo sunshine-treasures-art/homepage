@@ -26,13 +26,30 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+        .iframe-container {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          padding-top: 100%; /* 1:1 Aspect Ratio */
+        }
+
+        .responsive-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -177,7 +194,9 @@
                   <a href="https://www.youtube.com/@SunshineTreasuresArt" aria-label="Youtube Link"><i class="fa-brands fa-youtube fa-5x"></i></a>
                 </div>
                 <p class="fs-5 mb-4 text-white">Contact Form</p>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckrsru45SMRiW5vM18Bu7zbN-Rp3GvmYuZisCgjxhYVzPfMg/viewform?embedded=true" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <div class="iframe-container"> 
+                  <iframe class="responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSckrsru45SMRiW5vM18Bu7zbN-Rp3GvmYuZisCgjxhYVzPfMg/viewform?embedded=true"></iframe>
+                </div>
               </div>
             </div>
           </div>
