@@ -1,4 +1,6 @@
 ---
-title: Welcome to my blog
+Sunshine Treasures Art Homepage
 ---
 
+
+# A Simple Page
