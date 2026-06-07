@@ -45,7 +45,7 @@
 }
 
 .hero-section {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #bcbcbb 0%, #595858 50%, #353535 100%);
   color: #fff;
   padding: 5rem 1rem;
 }
@@ -80,7 +80,7 @@
 }
 
 .cta-banner {
-  background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+  background: linear-gradient(135deg, #757575 0%, #353535 100%);
   color: #fff;
 }
 
