@@ -1,208 +1,121 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sunshine Treasures Art Homepage">
+    <meta name="description" content="Sunshine Treasures Art — Custom Art, Photography & Live Painting by Tatyana Binns in Space Coast, FL">
     <meta name="author" content="Tatyana & Andrew Binns">
-    <title>Sunshine Treasures Art - Home</title>
-
-    
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"> -->
+    <title>Sunshine Treasures Art</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
-
-    <!-- Favicons 
-    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
-    -->
-    <meta name="theme-color" content="#712cf9">
-
-
-    <style>
-        .iframe-container {
-          position: relative;
-          width: 100%;
-          overflow: hidden;
-          padding-top: 100%; /* 1:1 Aspect Ratio */
-        }
-
-        .responsive-iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          right: 0;
-          width: 100%;
-          height: 100%;
-          border: none;
-        }
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        width: 100%;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-      @media (min-width: 992px) {
-        .rounded-lg-3 { border-radius: .3rem; }
-      }
-    </style>
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
   </head>
   <body>
-        <main>
-          <div class="px-4 pt-5 my-5 text-center">
-            <h1 class="display-4 fw-bold text-body-emphasis">Sunshine Treasures Art</h1>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Sunshine Treasures Art</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="paintings.html">Paintings</a></li>
+            <li class="nav-item"><a class="nav-link" href="photography.html">Photography</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-          <div class="b-example-divider"></div>
+    <main>
+      <section class="hero-section text-center">
+        <div class="container">
+          <h1 class="display-3 fw-bold mb-3">Sunshine Treasures Art</h1>
+          <p class="tagline fs-4 mb-3">"I create moments that help you feel worthy, celebrated &amp; connected"</p>
+          <p class="fs-5 mb-1">Tatyana Binns &mdash; Artist &amp; Photographer</p>
+          <p class="mb-4"><i class="fa-solid fa-location-dot"></i> Space Coast, FL + USA</p>
+          <span class="badge rounded-pill bg-light text-dark fs-6 px-3 py-2">Booking 2026 + 2027</span>
+        </div>
+      </section>
 
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="art/dusky-dawn.jpeg" class="d-block mx-lg-auto img-fluid" alt="Dusky Dawn Watercolor Art" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <p class="lead">Hi, I'm Tatyana Binns, an artist with a love for watercolor, acrylics, and learning. My art is inspired by the breathtaking beauty that surrounds us. I like to immortalize those precious moments and share them with the world!</p>
-              </div>
-            </div>
-          </div>
+      <div class="b-example-divider"></div>
 
-          <div class="b-example-divider"></div>
-          
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="art/orchid.jpeg" class="d-block mx-lg-auto img-fluid" alt="Orchid Watercolor Art" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Watercolor</h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="b-example-divider"></div>
-
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="art/turtles.jpeg" class="d-block mx-lg-auto img-fluid" alt="Turtles Acrylic Art" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Acrylics</h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="b-example-divider"></div>
-
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="art/custom.jpeg" class="d-block mx-lg-auto img-fluid" alt="Custom Art" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-4 fw-bold lh-1 mb-3">Custom Art</h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="b-example-divider"></div>
-
-          <div class="bg-dark text-secondary px-4 py-5 text-center">
-            <div class="py-5">
-              <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 text-white">Please contact Artist to schedule a commission.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <a href="https://www.instagram.com/sunshinetreasuresart/" aria-label="Instagram Link"><i class="fa-brands fa-instagram fa-5x"></i></a>
-                  <a href="https://www.facebook.com/SunshineTreasuresArt" aria-label="Facebook Link"><i class="fa-brands fa-facebook fa-5x"></i></a>
-                  <a href="https://www.youtube.com/@SunshineTreasuresArt" aria-label="Youtube Link"><i class="fa-brands fa-youtube fa-5x"></i></a>
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Services</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 service-card">
+                <img src="art/custom.jpeg" class="card-img-top" alt="Custom Art">
+                <div class="card-body text-center">
+                  <h3 class="card-title h5">Custom Art</h3>
+                  <p class="card-text">One-of-a-kind watercolor and acrylic paintings crafted to capture moments and beauty that matter to you.</p>
+                  <a href="paintings.html" class="btn btn-accent">Learn More</a>
                 </div>
-                <p class="fs-5 mb-4 text-white">Contact Form</p>
-                <div class="iframe-container"> 
-                  <iframe class="responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSckrsru45SMRiW5vM18Bu7zbN-Rp3GvmYuZisCgjxhYVzPfMg/viewform?embedded=true"></iframe>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 service-card">
+                <div class="card-img-top img-placeholder" style="height:250px;">
+                  <span><i class="fa-solid fa-camera fa-2x mb-2 d-block"></i>Photo Coming Soon</span>
+                </div>
+                <div class="card-body text-center">
+                  <h3 class="card-title h5">Photography</h3>
+                  <p class="card-text">Portrait and wedding photography that celebrates who you are &mdash; weddings, events, portraits, and creative photoshoots.</p>
+                  <a href="photography.html" class="btn btn-accent">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 service-card">
+                <img src="art/dusky-dawn.jpeg" class="card-img-top" alt="Live Painting">
+                <div class="card-body text-center">
+                  <h3 class="card-title h5">Live Painting</h3>
+                  <p class="card-text">Bring a unique artistic experience to your wedding or special event with a live painting created in real time.</p>
+                  <a href="paintings.html#live-painting" class="btn btn-accent">Learn More</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="b-example-divider mb-0"></div>
-        </main>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-    </body>
+      <div class="b-example-divider"></div>
+
+      <section class="py-5">
+        <div class="container col-xxl-8">
+          <div class="row align-items-center g-5">
+            <div class="col-md-6">
+              <img src="art/orchid.jpeg" class="img-fluid rounded" alt="Orchid Watercolor Art">
+            </div>
+            <div class="col-md-6">
+              <h2 class="fw-bold mb-3">About Tatyana</h2>
+              <p class="lead">Hi, I'm Tatyana Binns, an artist and photographer with a love for watercolor, acrylics, and capturing life's most meaningful moments.</p>
+              <p>My art is inspired by the breathtaking beauty that surrounds us. Whether through a painted canvas or a photograph, I aim to immortalize those precious moments and share them with the world.</p>
+              <a href="contact.html" class="btn btn-outline-dark">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-secondary py-5 text-center">
+      <div class="container">
+        <p class="text-white fst-italic fs-5 mb-3">"I create moments that help you feel worthy, celebrated &amp; connected"</p>
+        <div class="d-flex justify-content-center gap-4 mb-3">
+          <a href="https://www.instagram.com/sunshinetreasuresart/" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          <a href="https://www.facebook.com/SunshineTreasuresArt" aria-label="Facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+          <a href="https://www.youtube.com/@SunshineTreasuresArt" aria-label="YouTube"><i class="fa-brands fa-youtube fa-2x"></i></a>
+        </div>
+        <p class="mb-1"><i class="fa-solid fa-location-dot"></i> Space Coast, FL + USA</p>
+        <p class="small mb-0">&copy; 2026 Sunshine Treasures Art. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
